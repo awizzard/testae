@@ -1,2 +1,0 @@
-Blog Example for Potato
-=======================
