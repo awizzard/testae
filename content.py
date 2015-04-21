@@ -17,7 +17,7 @@ CONTENT_TEMPLATE = """\
 MAIN_PAGE_TEMPLATE = """\
 <html>
   <body>
-    <h1>Items</h1>
+    <h1>Items for {category}</h1>
     {items}
     <form action="/submit?{params}" method="post">
       <div><textarea name="content" rows="3" cols="60"></textarea></div>
